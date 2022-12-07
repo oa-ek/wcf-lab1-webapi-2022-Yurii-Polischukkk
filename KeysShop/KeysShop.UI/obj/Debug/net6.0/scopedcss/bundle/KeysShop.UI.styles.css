@@ -1,0 +1,147 @@
+/* _content/KeysShop.UI/Views/Shared/_BreezeBlankLayout.cshtml.rz.scp.css */
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-86tylf0bof] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-86tylf0bof] {
+  color: #0077cc;
+}
+
+.btn-primary[b-86tylf0bof] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-86tylf0bof], .nav-pills .show > .nav-link[b-86tylf0bof] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-86tylf0bof] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-86tylf0bof] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-86tylf0bof] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-86tylf0bof] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-86tylf0bof] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+/* _content/KeysShop.UI/Views/Shared/_BreezeLayout.cshtml.rz.scp.css */
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-p1ujpsynlq] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-p1ujpsynlq] {
+  color: #0077cc;
+}
+
+.btn-primary[b-p1ujpsynlq] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-p1ujpsynlq], .nav-pills .show > .nav-link[b-p1ujpsynlq] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-p1ujpsynlq] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-p1ujpsynlq] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-p1ujpsynlq] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-p1ujpsynlq] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-p1ujpsynlq] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+/* _content/KeysShop.UI/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-xmlsknyyfc] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-xmlsknyyfc] {
+  color: #0077cc;
+}
+
+.btn-primary[b-xmlsknyyfc] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-xmlsknyyfc], .nav-pills .show > .nav-link[b-xmlsknyyfc] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-xmlsknyyfc] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-xmlsknyyfc] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-xmlsknyyfc] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-xmlsknyyfc] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-xmlsknyyfc] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
