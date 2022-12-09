@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bOsp22l5TZstrf5r8I0+xxkga0oGcQXK2HP/jW86K7sT8e7t+k41YNWI9ikDJC8IjBKu0O+pMM20Str8aYOggw==",
+  "dgSpecHash": "XnkFItELa1Cw6i1+5dwS7euoBZOWvPX41vv5oBuzxf43ma6HXO4eRnr1OVpTtTq/cMkx1EouPgn0uIzyuZXH0Q==",
   "success": true,
-  "projectFilePath": "E:\\CSharp\\sharp-kn3-lab2-2022-keysshopteam\\KeysShop\\KeysShop.UI\\KeysShop.UI.csproj",
+  "projectFilePath": "E:\\CSharp\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.UI\\KeysShop.UI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

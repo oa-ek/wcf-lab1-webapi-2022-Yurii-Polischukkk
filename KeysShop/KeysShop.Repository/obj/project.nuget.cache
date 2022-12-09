@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "n6XnfOkFos4maYRTvhiY/tTM+B6CQMtgbjNNOnu8xS1ozQdOJ6cL4bi6rQaKRqdQqkXONRDSFqDnjXrD3dRBbg==",
+  "dgSpecHash": "Yd/JGDwjPp3zkz8I301p2X5GVVNdBY/BfzvjAUiuyG1NZJQD9tWypnT7JqZsN6AjZRmJPNV1VyV3Jftv8K9zwQ==",
   "success": true,
-  "projectFilePath": "E:\\CSharp\\sharp-kn3-lab2-2022-keysshopteam\\KeysShop\\KeysShop.Repository\\KeysShop.Repository.csproj",
+  "projectFilePath": "E:\\CSharp\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.Repository\\KeysShop.Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.8\\microsoft.aspnetcore.cryptography.internal.6.0.8.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.8\\microsoft.aspnetcore.cryptography.keyderivation.6.0.8.nupkg.sha512",

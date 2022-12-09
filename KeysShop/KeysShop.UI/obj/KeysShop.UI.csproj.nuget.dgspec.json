@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\CSharp\\sharp-kn3-lab2-2022-keysshopteam\\KeysShop\\KeysShop.UI\\KeysShop.UI.csproj": {}
+    "E:\\CSharp\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.UI\\KeysShop.UI.csproj": {}
   },
   "projects": {
-    "E:\\CSharp\\sharp-kn3-lab2-2022-keysshopteam\\KeysShop\\KeysShop.Core\\KeysShop.Core.csproj": {
+    "E:\\CSharp\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.Core\\KeysShop.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\CSharp\\sharp-kn3-lab2-2022-keysshopteam\\KeysShop\\KeysShop.Core\\KeysShop.Core.csproj",
+        "projectUniqueName": "E:\\CSharp\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.Core\\KeysShop.Core.csproj",
         "projectName": "KeysShop.Core",
-        "projectPath": "E:\\CSharp\\sharp-kn3-lab2-2022-keysshopteam\\KeysShop\\KeysShop.Core\\KeysShop.Core.csproj",
+        "projectPath": "E:\\CSharp\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.Core\\KeysShop.Core.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "E:\\CSharp\\sharp-kn3-lab2-2022-keysshopteam\\KeysShop\\KeysShop.Core\\obj\\",
+        "outputPath": "E:\\CSharp\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -79,14 +79,14 @@
         }
       }
     },
-    "E:\\CSharp\\sharp-kn3-lab2-2022-keysshopteam\\KeysShop\\KeysShop.Repository\\KeysShop.Repository.csproj": {
+    "E:\\CSharp\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.Repository\\KeysShop.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\CSharp\\sharp-kn3-lab2-2022-keysshopteam\\KeysShop\\KeysShop.Repository\\KeysShop.Repository.csproj",
+        "projectUniqueName": "E:\\CSharp\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.Repository\\KeysShop.Repository.csproj",
         "projectName": "KeysShop.Repository",
-        "projectPath": "E:\\CSharp\\sharp-kn3-lab2-2022-keysshopteam\\KeysShop\\KeysShop.Repository\\KeysShop.Repository.csproj",
+        "projectPath": "E:\\CSharp\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.Repository\\KeysShop.Repository.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "E:\\CSharp\\sharp-kn3-lab2-2022-keysshopteam\\KeysShop\\KeysShop.Repository\\obj\\",
+        "outputPath": "E:\\CSharp\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -103,8 +103,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\CSharp\\sharp-kn3-lab2-2022-keysshopteam\\KeysShop\\KeysShop.Core\\KeysShop.Core.csproj": {
-                "projectPath": "E:\\CSharp\\sharp-kn3-lab2-2022-keysshopteam\\KeysShop\\KeysShop.Core\\KeysShop.Core.csproj"
+              "E:\\CSharp\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.Core\\KeysShop.Core.csproj": {
+                "projectPath": "E:\\CSharp\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.Core\\KeysShop.Core.csproj"
               }
             }
           }
@@ -144,14 +144,14 @@
         }
       }
     },
-    "E:\\CSharp\\sharp-kn3-lab2-2022-keysshopteam\\KeysShop\\KeysShop.UI\\KeysShop.UI.csproj": {
+    "E:\\CSharp\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.UI\\KeysShop.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\CSharp\\sharp-kn3-lab2-2022-keysshopteam\\KeysShop\\KeysShop.UI\\KeysShop.UI.csproj",
+        "projectUniqueName": "E:\\CSharp\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.UI\\KeysShop.UI.csproj",
         "projectName": "KeysShop.UI",
-        "projectPath": "E:\\CSharp\\sharp-kn3-lab2-2022-keysshopteam\\KeysShop\\KeysShop.UI\\KeysShop.UI.csproj",
+        "projectPath": "E:\\CSharp\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.UI\\KeysShop.UI.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "E:\\CSharp\\sharp-kn3-lab2-2022-keysshopteam\\KeysShop\\KeysShop.UI\\obj\\",
+        "outputPath": "E:\\CSharp\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.UI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -168,11 +168,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\CSharp\\sharp-kn3-lab2-2022-keysshopteam\\KeysShop\\KeysShop.Core\\KeysShop.Core.csproj": {
-                "projectPath": "E:\\CSharp\\sharp-kn3-lab2-2022-keysshopteam\\KeysShop\\KeysShop.Core\\KeysShop.Core.csproj"
+              "E:\\CSharp\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.Core\\KeysShop.Core.csproj": {
+                "projectPath": "E:\\CSharp\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.Core\\KeysShop.Core.csproj"
               },
-              "E:\\CSharp\\sharp-kn3-lab2-2022-keysshopteam\\KeysShop\\KeysShop.Repository\\KeysShop.Repository.csproj": {
-                "projectPath": "E:\\CSharp\\sharp-kn3-lab2-2022-keysshopteam\\KeysShop\\KeysShop.Repository\\KeysShop.Repository.csproj"
+              "E:\\CSharp\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.Repository\\KeysShop.Repository.csproj": {
+                "projectPath": "E:\\CSharp\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.Repository\\KeysShop.Repository.csproj"
               }
             }
           }
