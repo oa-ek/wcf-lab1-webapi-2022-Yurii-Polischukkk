@@ -2221,19 +2221,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {}
+    "C:\\Users\\Yurii\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\CSharp\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.Core\\KeysShop.Core.csproj",
+      "projectUniqueName": "C:\\Users\\Yurii\\Source\\Repos\\oa-ek\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.Core\\KeysShop.Core.csproj",
       "projectName": "KeysShop.Core",
-      "projectPath": "E:\\CSharp\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.Core\\KeysShop.Core.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "E:\\CSharp\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.Core\\obj\\",
+      "projectPath": "C:\\Users\\Yurii\\Source\\Repos\\oa-ek\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.Core\\KeysShop.Core.csproj",
+      "packagesPath": "C:\\Users\\Yurii\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Yurii\\Source\\Repos\\oa-ek\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Yurii\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2294,7 +2294,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

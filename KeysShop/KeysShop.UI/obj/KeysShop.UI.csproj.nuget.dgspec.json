@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\CSharp\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.UI\\KeysShop.UI.csproj": {}
+    "C:\\Users\\Yurii\\source\\repos\\oa-ek\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.UI\\KeysShop.UI.csproj": {}
   },
   "projects": {
-    "E:\\CSharp\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.Core\\KeysShop.Core.csproj": {
+    "C:\\Users\\Yurii\\source\\repos\\oa-ek\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.Core\\KeysShop.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\CSharp\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.Core\\KeysShop.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Yurii\\source\\repos\\oa-ek\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.Core\\KeysShop.Core.csproj",
         "projectName": "KeysShop.Core",
-        "projectPath": "E:\\CSharp\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.Core\\KeysShop.Core.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "E:\\CSharp\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.Core\\obj\\",
+        "projectPath": "C:\\Users\\Yurii\\source\\repos\\oa-ek\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.Core\\KeysShop.Core.csproj",
+        "packagesPath": "C:\\Users\\Yurii\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Yurii\\Source\\Repos\\oa-ek\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Yurii\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -75,21 +75,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\CSharp\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.Repository\\KeysShop.Repository.csproj": {
+    "C:\\Users\\Yurii\\source\\repos\\oa-ek\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.Repository\\KeysShop.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\CSharp\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.Repository\\KeysShop.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\Yurii\\source\\repos\\oa-ek\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.Repository\\KeysShop.Repository.csproj",
         "projectName": "KeysShop.Repository",
-        "projectPath": "E:\\CSharp\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.Repository\\KeysShop.Repository.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "E:\\CSharp\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.Repository\\obj\\",
+        "projectPath": "C:\\Users\\Yurii\\source\\repos\\oa-ek\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.Repository\\KeysShop.Repository.csproj",
+        "packagesPath": "C:\\Users\\Yurii\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Yurii\\source\\repos\\oa-ek\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Yurii\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -103,8 +103,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\CSharp\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.Core\\KeysShop.Core.csproj": {
-                "projectPath": "E:\\CSharp\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.Core\\KeysShop.Core.csproj"
+              "C:\\Users\\Yurii\\source\\repos\\oa-ek\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.Core\\KeysShop.Core.csproj": {
+                "projectPath": "C:\\Users\\Yurii\\source\\repos\\oa-ek\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.Core\\KeysShop.Core.csproj"
+              },
+              "C:\\Users\\Yurii\\source\\repos\\oa-ek\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\Laboratorna\\Shared\\Laboratorna.Shared.csproj": {
+                "projectPath": "C:\\Users\\Yurii\\source\\repos\\oa-ek\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\Laboratorna\\Shared\\Laboratorna.Shared.csproj"
               }
             }
           }
@@ -119,9 +122,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.1, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.6.80, )"
             }
           },
           "imports": [
@@ -140,21 +151,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\CSharp\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.UI\\KeysShop.UI.csproj": {
+    "C:\\Users\\Yurii\\source\\repos\\oa-ek\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.UI\\KeysShop.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\CSharp\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.UI\\KeysShop.UI.csproj",
+        "projectUniqueName": "C:\\Users\\Yurii\\source\\repos\\oa-ek\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.UI\\KeysShop.UI.csproj",
         "projectName": "KeysShop.UI",
-        "projectPath": "E:\\CSharp\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.UI\\KeysShop.UI.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "E:\\CSharp\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.UI\\obj\\",
+        "projectPath": "C:\\Users\\Yurii\\source\\repos\\oa-ek\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.UI\\KeysShop.UI.csproj",
+        "packagesPath": "C:\\Users\\Yurii\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Yurii\\source\\repos\\oa-ek\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.UI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Yurii\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -168,11 +179,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\CSharp\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.Core\\KeysShop.Core.csproj": {
-                "projectPath": "E:\\CSharp\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.Core\\KeysShop.Core.csproj"
+              "C:\\Users\\Yurii\\source\\repos\\oa-ek\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.Core\\KeysShop.Core.csproj": {
+                "projectPath": "C:\\Users\\Yurii\\source\\repos\\oa-ek\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.Core\\KeysShop.Core.csproj"
               },
-              "E:\\CSharp\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.Repository\\KeysShop.Repository.csproj": {
-                "projectPath": "E:\\CSharp\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.Repository\\KeysShop.Repository.csproj"
+              "C:\\Users\\Yurii\\source\\repos\\oa-ek\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.Repository\\KeysShop.Repository.csproj": {
+                "projectPath": "C:\\Users\\Yurii\\source\\repos\\oa-ek\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.Repository\\KeysShop.Repository.csproj"
               }
             }
           }
@@ -231,7 +242,62 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Yurii\\source\\repos\\oa-ek\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\Laboratorna\\Shared\\Laboratorna.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Yurii\\source\\repos\\oa-ek\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\Laboratorna\\Shared\\Laboratorna.Shared.csproj",
+        "projectName": "Laboratorna.Shared",
+        "projectPath": "C:\\Users\\Yurii\\source\\repos\\oa-ek\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\Laboratorna\\Shared\\Laboratorna.Shared.csproj",
+        "packagesPath": "C:\\Users\\Yurii\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Yurii\\Source\\Repos\\oa-ek\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\Laboratorna\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Yurii\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

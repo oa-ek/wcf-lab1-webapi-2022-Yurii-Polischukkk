@@ -7,11 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="StackExchange.Redis" Version="2.6.80" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\KeysShop.Core\KeysShop.Core.csproj" />
+    <ProjectReference Include="..\Laboratorna\Shared\Laboratorna.Shared.csproj" />
   </ItemGroup>
 
 </Project>
