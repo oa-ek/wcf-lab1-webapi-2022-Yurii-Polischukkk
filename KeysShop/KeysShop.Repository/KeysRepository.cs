@@ -1,11 +1,9 @@
 ﻿using KeysShop.Core;
-using KeysShop.Repository.Dto;
-using Microsoft.AspNetCore.Identity;
+using KeysShop.Shared.Dtos;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -28,7 +26,7 @@ namespace KeysShop.Repository
 
         public Key GetKey(int id)
         {
-            return _ctx.Keys.Include(x=>x.Brand).Include(x=>x.feedbacks).FirstOrDefault(x => x.Id == id);
+            return _ctx.Keys.Include(x => x.Brand).Include(x => x.feedbacks).FirstOrDefault(x => x.Id == id);
         }
 
         public List<Key> GetKeys()
@@ -62,7 +60,7 @@ namespace KeysShop.Repository
 
         public async Task<KeyCreateDto> GetKeyDto(int id)
         {
-            var k = await _ctx.Keys.Include(x=>x.Brand).FirstAsync(x => x.Id == id);
+            var k = await _ctx.Keys.Include(x => x.Brand).FirstAsync(x => x.Id == id);
 
             var keyDto = new KeyCreateDto
             {
@@ -83,7 +81,7 @@ namespace KeysShop.Repository
 
         public async Task UpdateAsync(KeyCreateDto model, string brands)
         {
-            var key = _ctx.Keys.Include(x=>x.Brand).FirstOrDefault(x=>x.Id==model.Id);
+            var key = _ctx.Keys.Include(x => x.Brand).FirstOrDefault(x => x.Id == model.Id);
             if (key.Name != model.Name)
                 key.Name = model.Name;
             if (key.Description != model.Description)
@@ -101,7 +99,7 @@ namespace KeysShop.Repository
             if (key.IsKeyless != model.IsKeyless)
                 key.IsKeyless = model.IsKeyless;
             if (key.Brand.Name != brands)
-                key.Brand = _ctx.Brands.FirstOrDefault(x=>x.Name==brands);
+                key.Brand = _ctx.Brands.FirstOrDefault(x => x.Name == brands);
             _ctx.SaveChanges();
         }
     }

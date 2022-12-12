@@ -15,7 +15,7 @@ namespace KeysShop.Repository
 
         private ISession _session => httpContextAccessor.HttpContext.Session;
 
-        public SessionManager (KeysShopContext context, IHttpContextAccessor httpContextAccessor)
+        public SessionManager(KeysShopContext context, IHttpContextAccessor httpContextAccessor)
         {
             this.context = context;
             this.httpContextAccessor = httpContextAccessor;
@@ -24,12 +24,11 @@ namespace KeysShop.Repository
         public void SetCartId(string id, string cartSessionKey)
         {
             _session.SetString(cartSessionKey, id);
-  
         }
 
         public string GetCartId(string cartSessionKey)
         {
-            if (!_session.Keys.Any(x=>x==cartSessionKey))
+            if (!_session.Keys.Any(x => x == cartSessionKey))
             {
                 if (!string.IsNullOrWhiteSpace(_session.Id))
                 {
@@ -43,7 +42,7 @@ namespace KeysShop.Repository
                 }
             }
             return _session.GetString(cartSessionKey);
-        } 
+        }
         public List<CartItem> GetCartItems()
         {
             var cart = _session.GetObject<List<CartItem>>("cart");

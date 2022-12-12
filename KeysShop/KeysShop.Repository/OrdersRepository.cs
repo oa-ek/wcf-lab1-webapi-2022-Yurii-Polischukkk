@@ -1,6 +1,5 @@
 ﻿using KeysShop.Core;
-using Laboratorna.Shared.Dtos;
-using StackExchange.Redis;
+using KeysShop.Shared.Dtos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
