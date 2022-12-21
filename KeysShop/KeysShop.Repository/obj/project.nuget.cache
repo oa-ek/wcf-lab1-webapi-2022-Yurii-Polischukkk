@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "a+Xx3nvatEhO5vOcOaJPmJTbp+GBEEVCeEwsf/UOwqRDLuTdzO8EUekQD6RcCYbZ1olsE55rBZ49NV/soxz6qA==",
+  "dgSpecHash": "6gBYmHrLUHbRam3tbZWr+JKZXl65gEuBvWy2P0F4USazg9y2UfwhO3zEwpho6HPq03R+UcpO24KKNA48q/EIdA==",
   "success": true,
-  "projectFilePath": "E:\\CSharp\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.Repository\\KeysShop.Repository.csproj",
+  "projectFilePath": "E:\\CSharp\\lab№2\\KeysShop\\KeysShop.Repository\\KeysShop.Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

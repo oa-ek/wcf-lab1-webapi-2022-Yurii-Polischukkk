@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "K1BRIjQwHnwVV5H1XJBbo8kSqBo8xRlxFiHKGYlPju5aPgXlDhoRaErfpwJgyZ5XkwjDuUcIepX155WhheJl4A==",
+  "dgSpecHash": "ZZfN+ruNbVUEzOVRDg3d4Y10HYXLbfkGomBWM7act1dI45ofF9KzVJGKWncRbR2WPih63jXPoLHHMmEVNHioSg==",
   "success": true,
-  "projectFilePath": "E:\\CSharp\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.Core\\KeysShop.Core.csproj",
+  "projectFilePath": "E:\\CSharp\\lab№2\\KeysShop\\KeysShop.Core\\KeysShop.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

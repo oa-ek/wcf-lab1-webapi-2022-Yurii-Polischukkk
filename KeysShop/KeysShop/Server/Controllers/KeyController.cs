@@ -9,7 +9,7 @@ using KeysShop.Shared.Dtos;
 namespace KeysShop.UI.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class KeyController : ControllerBase
     {
         private readonly KeysRepository keysRepository;
@@ -23,31 +23,57 @@ namespace KeysShop.UI.Controllers
             _webHostEnvironment = webHostEnvironment;
         }
 
-        
-        [HttpGet("getkeys/")]
-        public List<Key> GetKeys()
+        /// <summary>
+        /// Method returnes list of keys from database
+        /// </summary>
+        /// 
+        [HttpGet]
+        public List<KeyCreateDto> GetKeys()
         {
-            var keys = keysRepository.GetKeys();
+            var keys = keysRepository.GetKeysDto();
             return keys;
         }
 
-        [HttpGet("getkey/{id}")]
-        public Key GetBrand(int id)
+        /// <summary>
+        /// Method returnes key from database by id
+        /// </summary>
+        /// <param name="id">id of searching key</param>
+        /// <returns>key from db</returns>
+        [HttpGet("{id}")]
+        public KeyCreateDto GetKey(int id)
         {
-            return keysRepository.GetKey(id);
+            var key = keysRepository.GetKey(id);
+            var keyDto = new KeyCreateDto 
+            {
+                Id = key.Id,
+                Name = key.Name,
+                Description = key.Description,
+                Price = key.Price,
+                Sale = key.Sale,
+                Frequency = key.Frequency,
+                Count = key.Count,
+                ImgPath = key.ImgPath,
+                IsOriginal = key.IsOriginal,
+                IsKeyless = key.IsKeyless,
+                Brand = key.Brand.Name
+            };
+            return keyDto;
         }
 
-      
-        [HttpPost("createkey/")]
+        /// <summary>
+        /// Method creates key and adds it to db
+        /// </summary>
+        /// <param name="brands">gives the name of brand, which we need to create key</param>
+        [HttpPost]
         [SwaggerResponse(StatusCodes.Status400BadRequest)]
         [SwaggerResponse(StatusCodes.Status409Conflict)]
         [SwaggerResponse(StatusCodes.Status500InternalServerError)]
-        public async Task CreateKey(KeyCreateDto keyCreateDto, string brands)
+        public async Task<KeyCreateDto> CreateKey(KeyCreateDto keyCreateDto)
         {
-            var brand = brandsRepository.GetBrandByName(brands);
+            var brand = brandsRepository.GetBrandByName(keyCreateDto.Brand);
             if (brand == null)
             {
-                brand = new Brand() { Name = brands };
+                brand = new Brand() { Name = keyCreateDto.Brand };
                 brand = await brandsRepository.AddBrandAsync(brand);
             }
 
@@ -64,24 +90,65 @@ namespace KeysShop.UI.Controllers
                 IsKeyless = keyCreateDto.IsKeyless,
                 Brand = brand
             });
+            return key;
         }
 
-       
+        /*        [HttpGet("getimage/{id}")]
+                public async Task<IActionResult> GetImage(int id)
+                {
+                    var key = keysRepository.GetKey(id);
+                    var contentType = GetMimeTypeForFileExtension(key.ImgPath);
+                    var imgPath = key.ImgPath;
+                    if (!System.IO.File.Exists(imgPath))
+                    {
+                        imgPath = "https://www.shutterstock.com/image-vector/no-image-available-vector-hand-260nw-745639717.jpg";
+                    }
 
-        [HttpPost("editkey/")]
+                    return PhysicalFile(imgPath, contentType);
+                }
+
+                [NonAction]
+                public string GetMimeTypeForFileExtension(string filePath)
+                {
+                    const string DefaultContentType = "application/octet-stream";
+
+                    var provider = new FileExtensionContentTypeProvider();
+
+                    if (!provider.TryGetContentType(filePath, out string contentType))
+                    {
+                        contentType = DefaultContentType;
+                    }
+                    return contentType;
+                }*/
+
+
+        /// <summary>
+        /// Method edits key from database
+        /// </summary>
+        /// <param name="brands">name of brand, which we wanna edit</param>
+        [HttpPut]
         [SwaggerResponse(StatusCodes.Status400BadRequest)]
         [SwaggerResponse(StatusCodes.Status409Conflict)]
         [SwaggerResponse(StatusCodes.Status500InternalServerError)]
-        public async Task Edit(KeyCreateDto model, string brands)
+        public async Task Edit(KeyCreateDto model)
         {
-            await keysRepository.UpdateAsync(model, brands);
+            await keysRepository.UpdateAsync(model);
         }
 
-       
-        [HttpPost("confirmdelete/{id}")]
+        /// <summary>
+        /// Method deletes key from database by id
+        /// </summary>
+        /// <param name="id">id of deleting key</param>
+        [HttpDelete("{id}")]
         public async Task ConfirmDelete(int id)
         {
             await keysRepository.DeleteKeyAsync(id);
+        }
+
+        [HttpGet("search/{searchText}")]
+        public ActionResult<List<KeyCreateDto>> SearchKeys(string searchText)
+        {
+            return Ok(keysRepository.SearchKey(searchText));
         }
     }
 }

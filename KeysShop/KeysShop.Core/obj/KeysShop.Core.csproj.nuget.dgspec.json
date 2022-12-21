@@ -1,18 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "E:\\CSharp\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.Core\\KeysShop.Core.csproj": {}
+    "E:\\CSharp\\lab№2\\KeysShop\\KeysShop.Core\\KeysShop.Core.csproj": {}
   },
   "projects": {
-    "E:\\CSharp\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.Core\\KeysShop.Core.csproj": {
+    "E:\\CSharp\\lab№2\\KeysShop\\KeysShop.Core\\KeysShop.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\CSharp\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.Core\\KeysShop.Core.csproj",
+        "projectUniqueName": "E:\\CSharp\\lab№2\\KeysShop\\KeysShop.Core\\KeysShop.Core.csproj",
         "projectName": "KeysShop.Core",
-        "projectPath": "E:\\CSharp\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.Core\\KeysShop.Core.csproj",
+        "projectPath": "E:\\CSharp\\lab№2\\KeysShop\\KeysShop.Core\\KeysShop.Core.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "E:\\CSharp\\wcf-lab1-webapi-2022-Yurii-Polischukkk\\KeysShop\\KeysShop.Core\\obj\\",
+        "outputPath": "E:\\CSharp\\lab№2\\KeysShop\\KeysShop.Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"

@@ -16,7 +16,10 @@ namespace KeysShop.Server.Controllers
             this.keysRepository = keysRepository;
         }
 
-       
+        /// <summary>
+        /// Method creates cart if in wasn`t initialized and adds key to it
+        /// </summary>
+        /// <param name="id">id of buying key</param>
         [HttpPut("{id}")]
         [SwaggerResponse(StatusCodes.Status400BadRequest)]
         public void Add(int id)

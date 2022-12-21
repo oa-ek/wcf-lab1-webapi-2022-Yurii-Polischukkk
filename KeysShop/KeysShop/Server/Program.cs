@@ -1,42 +1,41 @@
+using Blazored.LocalStorage;
+using KeysShop.Client;
 using KeysShop.Core;
 using KeysShop.Repository;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.ResponseCompression;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection.Extensions;
+using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
+using Swashbuckle.AspNetCore.Filters;
 using System.Reflection;
+using System.Text;
 using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 
-
+// Add services to the container.
 
 var connectionString = builder.Configuration.GetConnectionString("KeysShopConnection");
 
 builder.Services.AddDbContext<KeysShopContext>(options => options.UseSqlServer(connectionString));
 
+//builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
-//builder.Services.AddSwaggerGen();
-builder.Services.AddSwaggerGen(options =>
-{
-    options.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
-    {
-        Version = "v1",
-        Title = "KeysShop",
-        Description = "Api that work in order to support the shop",
-    });
-    string xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
-    string xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
-    options.IncludeXmlComments(xmlPath);
-});
 
 
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 
+/*builder.Services.AddTransient<UsersRepository>();*/
 builder.Services.AddScoped<KeysRepository>();
 builder.Services.AddScoped<BrandRepository>();
 builder.Services.AddScoped<OrdersRepository>();
 builder.Services.AddScoped<SessionManager>();
+builder.Services.AddBlazoredLocalStorage();
+
 
 builder.Services.AddControllers().AddJsonOptions(x =>
                 x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);
@@ -46,7 +45,29 @@ builder.Services.AddAutoMapper(typeof(AppAutoMapper).Assembly);
 
 builder.Services.AddRouting(options => options.LowercaseUrls = true);
 
+//builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(options =>
+{
+    options.AddSecurityDefinition("oauth2", new OpenApiSecurityScheme
+    {
+        Description = "Standart Authorization header using the BEarer scheme (\"bearer {token}\")",
+        In = ParameterLocation.Header,
+        Name = "Authorization",
+        Type = SecuritySchemeType.ApiKey
+    });
 
+    options.OperationFilter<SecurityRequirementsOperationFilter>();
+
+    options.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
+    {
+        Version = "v1",
+        Title = "Keys Shop",
+        Description = "Polischuk, keys shop",
+    });
+    string xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+    string xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+    options.IncludeXmlComments(xmlPath);
+});
 
 builder.Services.AddSession(options =>
 {
@@ -73,10 +94,16 @@ else
 
 app.UseHttpsRedirection();
 
+
+
 app.UseBlazorFrameworkFiles();
 app.UseStaticFiles();
 
 app.UseRouting();
+
+app.UseAuthentication();
+
+app.UseAuthorization();
 
 app.UseSession();
 
